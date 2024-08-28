@@ -361,7 +361,3 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-
-# Visual Studio Stuff (don't break out development stuff LOL)
-*.sln
-CudeTest1/*.vcxproj
