@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CudeTest1", "CudeTest1\CudeTest1.vcxproj", "{A275B87F-A12A-4336-BA5A-A9C789FF2FF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A275B87F-A12A-4336-BA5A-A9C789FF2FF1}.Debug|x64.ActiveCfg = Debug|x64
+		{A275B87F-A12A-4336-BA5A-A9C789FF2FF1}.Debug|x64.Build.0 = Debug|x64
+		{A275B87F-A12A-4336-BA5A-A9C789FF2FF1}.Release|x64.ActiveCfg = Release|x64
+		{A275B87F-A12A-4336-BA5A-A9C789FF2FF1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63801B06-BAC9-4C5A-99AD-1A2D9F84CEAE}
+	EndGlobalSection
+EndGlobal
