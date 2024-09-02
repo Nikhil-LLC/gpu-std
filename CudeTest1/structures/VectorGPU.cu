@@ -1,95 +1,164 @@
-
-#include "VectorGPU.cuh"
 // #include <cuda_runtime.h>
-using namespace gpu_std;
+// #include "VectorGPU.cuh"
 
-// TODO define method headers (i.e. VectorGPU<T>::method_name, use generic template)
+// using namespace gpu_std;
 
-template <typename T>
-VectorGPU<T>::VectorGPU() {
-  // TODO implement constructor
-}
+// template <class T>
+// VectorGPU<T>() {
+// // TODO
+// }
 
-template <typename T>
-VectorGPU<T>::~VectorGPU() {
-  // TODO implement destructor
-}
+// template <class T>
+// ~VectorGPU() {
+// // TODO
+// }
 
-// This is where stuff starts to get buggy, we need to make sure this actually works LOL
-template <typename T>
-__host__
-boolean VectorGPU<T>::operator=(const VectorGPU<T>& other) {
-  // TODO implement copy constructor
-}
+// template <class T>
+// __host__ 
+// bool operator=(const gpu_vector<T>& other) {
+// // TODO
+// }
 
-// same for device
-template <typename T>
-__device__
-boolean VectorGPU<T>::operator=(const VectorGPU<T>& other) {
-  // TODO implement copy constructor
-}
+// template <class T>
+// __device__ 
+// bool operator=(const gpu_vector<T>& other) {
+// // TODO
+// }
 
-template <typename T>
-__host__
-void VectorGPU<T>::operator+(const VectorGPU<T>& other) {
-  // TODO implement copy constructor
-}
+// template <class T>
+// __host__ 
+// VectorGPU* operator+(const gpu_vector<T>& other) {
+// // TODO
+// }
 
-// same for device
-template <typename T>
-__device__
-void VectorGPU<T>::operator+(const VectorGPU<T>& other) {
-  // TODO implement copy constructor
-}
+// template <class T>
+// __device__ 
+// void operator+(const gpu_vector<T>& other) {
+// // TODO
+// }
 
-template <typename T>
-__host__
-void VectorGPU<T>::operator-(const VectorGPU<T>& other) {
-  // TODO implement copy constructor
-}
+// template <class T>
+// __host__ 
+// void operator-(const gpu_vector<T>& other) {
+//   // TODO
+// }
 
-// same for device
-template <typename T>
-__device__
-void VectorGPU<T>::operator-(const VectorGPU<T>& other) {
-  // TODO implement copy constructor
-}
+// template <class T>
+// __device__ 
+// void operator-(const gpu_vector<T>& other) {
+//   // TODO
+// }
 
-template <typename T>
-__host__
-void VectorGPU<T>::operator*(const VectorGPU<T>& other) {
-  // TODO implement copy constructor
-}
+// template <class T>
+// __host__ 
+// void operator*(const gpu_vector<T>& other) {
+//   // TODO
+// }
 
-// same for device
-template <typename T>
-__device__
-void VectorGPU<T>::operator*(const VectorGPU<T>& other) {
-  // TODO implement copy constructor
-}
+// template <class T>
+// __device__ 
+// void operator*(const gpu_vector<T>& other) {
+//   // TODO
+// }
 
-template <typename T>
-__host__
-void VectorGPU<T>::operator/(const VectorGPU<T>& other) {
-  // TODO implement copy constructor
-}
+// template <class T>
+// __host__ 
+// void operator/(const gpu_vector<T>& other) {
+//   // TODO
+// }
 
-// same for device
-template <typename T>
-__device__
-void VectorGPU<T>::operator/(const VectorGPU<T>& other) {
-  // TODO implement copy constructor
-}
+// template <class T>
+// __device__ 
+// void operator/(const gpu_vector<T>& other) {
+//   // TODO
+// }
 
-template <typename T>
-__host__
-T VectorGPU<T>::operator[](const VectorGPU<T>& other) {
-  // TODO implement copy constructor
-}
+// template <class T>
+// __host__ 
+// T operator[](const gpu_vector<T>& other) {
+//   // TODO
+// }
 
-// same for device
-template <typename T>
-__device__
-T VectorGPU<T>::operator[](const VectorGPU<T>& other) {
-  // TODO implement copy constructor
-}
+// template <class T>
+// __device__ 
+// T operator[](const gpu_vector<T>& other) {
+//   // TODO
+// }
+
+// template <class T>
+// __host__ 
+// int size() {
+//   // TODO
+// }
+
+// template <class T>
+// __host__ 
+// bool add(T added) {
+//   // TODO
+// }
+
+// template <class T>
+// __host__ 
+// bool add(T added, int index) {
+//   // TODO
+// }
+
+// template <class T>
+// __host__ 
+// T remove_first(T removed) {
+//   // TODO
+// }
+
+// template <class T>
+// __host__ 
+// T remove(int index) {
+//   // TODO
+// }
+
+// template <class T>
+// __host__ 
+// bool removeAll(T removed) {
+//   // TODO
+// }
+
+// template <class T>
+// __device__ 
+// int compareTo(int** dev_content) {
+//   // TODO
+// }
+
+// template <class T>
+// __device__ 
+// int dot_product(int** dev_content) {
+//   // TODO
+// }
+
+// template <class T>
+// __device__ 
+// int cross_product(int** dev_content) {
+//   // TODO
+// }
+
+// template <class T>
+// __device__ 
+// int magnitude(int** dev_content) {
+//   // TODO
+// }
+
+// template <class T>
+// __device__ 
+// double angle(int** dev_content) {
+//   // TODO
+// }
+
+// template <class T>
+// __device__ 
+// int distance(int** dev_content) {
+//   // TODO
+// }
+
+// template <class T>
+// __device__ 
+// int projection(int** dev_content) {
+//   // TODO
+// }

@@ -25,13 +25,13 @@ namespace gpu_std {
        * @brief Copy constructor
        * This will NOT implement the GPU 😔
        */
-      __host__ boolean operator=(const gpu_vector<T>& other);
+      __host__ bool operator=(const gpu_vector<T>& other);
 
       /**
        * @brief Copy constructor
        * This will NOT implement the GPU 😎
        */
-      __device__ boolean operator=(const gpu_vector<T>& other);
+      __device__ bool operator=(const gpu_vector<T>& other);
 
       /**
        * @brief Copy constructor
